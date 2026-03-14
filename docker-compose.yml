@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SERPAPI_KEY=${SERPAPI_KEY}
+      - DATABASE_URL=sqlite:///./bureaucracy_navigator.db
+      - CHROMA_PERSIST_DIRECTORY=./chroma_db
+      - UPLOAD_DIR=./uploads
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./backend:/app
+      - backend_data:/app/chroma_db
+      - backend_uploads:/app/uploads
+      - backend_db:/app/data
+    depends_on:
+      - redis
+    networks:
+      - bureaucracy-network
+
+  # Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      - backend
+    networks:
+      - bureaucracy-network
+
+  # Redis for caching and session management
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - bureaucracy-network
+
+  # Nginx reverse proxy (optional for production)
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - bureaucracy-network
+    profiles:
+      - production
+
+volumes:
+  backend_data:
+  backend_uploads:
+  backend_db:
+  redis_data:
+
+networks:
+  bureaucracy-network:
+    driver: bridge
