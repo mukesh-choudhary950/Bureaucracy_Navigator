@@ -1,17 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.routes import router as api_router
-from app.core.config import settings
-from app.core.database import engine, Base
-from app.core.logging import setup_logging
-from app.utils.middleware import LoggingMiddleware, SecurityMiddleware
 import uvicorn
 
-# Setup logging
-setup_logging()
+from app.api.routes import router as api_router
+from app.core.config import settings
+from app.core.logging import setup_logging
+from app.services.initialization import initialization_service
 
-# Create database tables
-Base.metadata.create_all(bind=engine)
+
+# Initialize logging
+setup_logging()
 
 app = FastAPI(
     title="Bureaucracy Navigator Agent",
@@ -21,14 +19,13 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# Add custom middleware
-app.add_middleware(SecurityMiddleware)
-app.add_middleware(LoggingMiddleware)
-
-# CORS middleware
+# CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://yourdomain.com"],  # Update for production
+    allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -37,13 +34,37 @@ app.add_middleware(
 # Include API routes
 app.include_router(api_router, prefix="/api/v1")
 
+
+# Startup event
+@app.on_event("startup")
+async def startup_event():
+    """Initialize system on startup"""
+    await initialization_service.initialize_system()
+
+
+# Root endpoint
 @app.get("/")
 async def root():
     return {"message": "Bureaucracy Navigator Agent API"}
 
+
+# Health check endpoint
 @app.get("/health")
 async def health_check():
     return {"status": "healthy"}
 
+
+# Initialization status
+@app.get("/init-status")
+async def get_init_status():
+    return initialization_service.get_initialization_status()
+
+
+# Run server directly
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(
+        "app.main:app",
+        host="127.0.0.1",
+        port=8000,
+        reload=True
+    )

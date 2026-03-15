@@ -1,0 +1,41 @@
+/* Direct CSS file for testing */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: linear-gradient(135deg, #dbeafe 0%, #e9d5ff 50%, #fce7f3 100%) !important;
+  min-height: 100vh !important;
+}
+
+.test-card {
+  background: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  padding: 2rem !important;
+  margin: 2rem !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.test-button {
+  background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%) !important;
+  color: white !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.75rem !important;
+  font-weight: 600 !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.test-text {
+  color: #1f2937 !important;
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}

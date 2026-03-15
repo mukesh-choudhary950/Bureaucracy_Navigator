@@ -1,8 +1,7 @@
 from typing import List, Dict, Any, Optional
-import chromadb
-from chromadb.config import Settings
-from openai import OpenAI
+from langchain_groq import ChatGroq
 from app.core.config import settings
+from app.services.vector_store import vector_store
 import json
 import os
 from datetime import datetime
@@ -11,30 +10,20 @@ class RAGSystem:
     """Retrieval Augmented Generation system for knowledge base"""
     
     def __init__(self):
-        self.client = OpenAI(api_key=settings.OPENAI_API_KEY)
-        self.chroma_client = chromadb.PersistentClient(
-            path=settings.CHROMA_PERSIST_DIRECTORY
+        self.llm = ChatGroq(
+            api_key=settings.GROQ_API_KEY,
+            model_name="llama3-8b-8192",
+            temperature=0.3
         )
-        self.collection = self._get_or_create_collection()
+        self.vector_store = vector_store
         self._initialize_demo_data()
     
-    def _get_or_create_collection(self):
-        """Get or create the Chroma collection"""
-        try:
-            collection = self.chroma_client.get_collection("government_procedures")
-        except Exception:
-            collection = self.chroma_client.create_collection(
-                name="government_procedures",
-                metadata={"description": "Government procedures and forms"}
-            )
-        return collection
-    
     def _initialize_demo_data(self):
-        """Initialize with demo data for common procedures"""
-        # Check if collection is empty
+        """Initialize with demo government procedure data"""
+        # Check if vector store already has data
         try:
-            count = self.collection.count()
-            if count > 0:
+            stats = self.vector_store.get_collection_stats()
+            if stats.get("total_chunks", 0) > 0:
                 return  # Already initialized
         except:
             pass
@@ -284,77 +273,60 @@ class RAGSystem:
         # Add documents to collection
         for doc in demo_documents:
             try:
-                # Generate embedding
-                embedding = self._generate_embedding(doc["content"])
-                
-                # Add to Chroma
-                self.collection.add(
-                    ids=[doc["id"]],
-                    embeddings=[embedding],
-                    documents=[doc["content"]],
-                    metadatas=[doc["metadata"]]
+                # Add to vector store
+                self.vector_store.add_document_chunks(
+                    chunks=[doc["content"]],
+                    metadata=[doc["metadata"]],
+                    document_id=doc["id"]
                 )
             except Exception as e:
                 print(f"Error adding document {doc['id']}: {e}")
     
     def _generate_embedding(self, text: str) -> List[float]:
-        """Generate embedding for text using OpenAI"""
+        """Generate embedding for text using HuggingFace"""
         try:
-            response = self.client.embeddings.create(
-                model="text-embedding-ada-002",
-                input=text
-            )
-            return response.data[0].embedding
+            # Use vector store embeddings
+            return self.vector_store.embeddings.embed_query(text)
         except Exception as e:
             # Fallback to dummy embedding
-            return [0.0] * 1536
+            return [0.0] * 384  # MiniLM-L6-v2 has 384 dimensions
     
     async def search_knowledge(self, query: str, n_results: int = 3) -> List[Dict[str, Any]]:
         """Search knowledge base for relevant information"""
         try:
-            # Generate query embedding
-            query_embedding = self._generate_embedding(query)
-            
-            # Search in Chroma
-            results = self.collection.query(
-                query_embeddings=[query_embedding],
+            # Use vector store for similarity search
+            results = self.vector_store.similarity_search(
+                query=query,
                 n_results=n_results
             )
             
-            # Format results
-            search_results = []
-            for i, doc_id in enumerate(results["ids"][0]):
-                search_results.append({
-                    "id": doc_id,
-                    "content": results["documents"][0][i],
-                    "metadata": results["metadatas"][0][i],
-                    "similarity_score": results["distances"][0][i] if "distances" in results else None
+            # Format results to match expected structure
+            formatted_results = []
+            for result in results:
+                formatted_results.append({
+                    "content": result["content"],
+                    "metadata": result["metadata"],
+                    "distance": result.get("distance", 0),
+                    "id": result.get("id", "")
                 })
             
-            return search_results
+            return formatted_results
             
         except Exception as e:
+            print(f"Error searching knowledge: {e}")
             return []
     
     async def add_document(self, content: str, metadata: Dict[str, Any]) -> bool:
         """Add new document to knowledge base"""
         try:
-            # Generate document ID
-            doc_id = f"doc_{datetime.now().timestamp()}"
-            
-            # Generate embedding
-            embedding = self._generate_embedding(content)
-            
-            # Add to Chroma
-            self.collection.add(
-                ids=[doc_id],
-                embeddings=[embedding],
-                documents=[content],
-                metadatas=[metadata]
+            # Use vector store to add document
+            doc_id = self.vector_store.add_document_chunks(
+                chunks=[content],
+                metadata=[metadata]
             )
-            
             return True
         except Exception as e:
+            print(f"Error adding document: {e}")
             return False
     
     async def get_relevant_context(self, query: str) -> str:
@@ -394,17 +366,16 @@ Question: {query}
 Please provide a comprehensive answer based on the context. Include specific steps, documents required, and timeline if available."""
         
         try:
-            response = self.client.chat.completions.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt}
-                ],
-                temperature=0.3,
-                max_tokens=1000
-            )
+            # Use LangChain Groq integration
+            from langchain.schema import HumanMessage, SystemMessage
             
-            answer = response.choices[0].message.content
+            messages = [
+                SystemMessage(content=system_prompt),
+                HumanMessage(content=user_prompt)
+            ]
+            
+            response = self.llm.invoke(messages)
+            answer = response.content
             
             return {
                 "answer": answer,

@@ -1,0 +1,720 @@
+2026-03-14 23:24:26 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-14 23:24:57 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-14 23:25:48 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-14 23:26:32 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-14 23:26:59 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-14 23:27:25 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-14 23:27:49 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-14 23:28:08 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-14 23:28:36 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process_text'
+2026-03-14 23:28:39 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process_text'
+2026-03-14 23:31:52 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process_text'
+2026-03-14 23:32:23 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process_text'
+2026-03-14 23:33:05 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process_text'
+2026-03-14 23:33:09 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process_text'
+2026-03-14 23:33:15 | ERROR    | app.services.auto_document_loader:_scrape_website:134 - Error scraping https://uidai.gov.in/: 403 Client Error: Forbidden for url: https://uidai.gov.in/
+2026-03-14 23:47:48 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-15 00:28:57 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-15 01:28:03 | ERROR    | app.services.auto_document_loader:load_government_documents:90 - Failed to load India Government Services: 'DocumentProcessor' object has no attribute 'process'
+2026-03-15 01:32:50 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:32:50 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:36:52 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:36:52 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:38:02 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:38:04 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:38:11 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:38:14 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:38:14 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:38:14 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:38:19 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:38:32 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:39:19 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:40:13 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:40:16 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:40:19 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:43:52 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:43:52 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:46:42 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:46:42 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:47:24 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:47:24 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 01:47:24 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:47:40 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:47:42 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:47:43 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 01:48:12 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 02:36:55 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 02:41:15 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 02:41:51 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 02:41:51 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 02:42:14 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 02:42:14 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 02:46:11 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:15:00 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:15:51 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 04:15:51 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 04:16:11 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 04:16:11 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 04:20:39 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:20:50 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 04:20:50 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 04:20:58 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 04:20:58 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 04:25:42 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:34:01 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:34:26 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:56:05 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:57:12 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:57:22 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 04:57:34 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 04:57:43 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 04:57:57 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:01:04 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:01:31 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:04:24 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:04:33 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:04:45 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:04:54 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:05:09 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:09:33 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:13:07 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:19:32 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:19:41 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:19:52 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:20:01 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:20:21 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:25:10 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:25:20 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:25:43 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:31:35 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:31:45 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:31:54 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:32:04 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:32:27 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:34:18 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:34:27 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:34:50 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:44:51 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:45:28 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:46:02 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:50:09 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:50:16 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: 403 Client Error: Forbidden for url: https://uidai.gov.in/
+2026-03-15 05:50:18 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:50:29 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:50:38 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:51:00 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:51:07 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: 403 Client Error: Forbidden for url: https://uidai.gov.in/
+2026-03-15 05:54:28 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:54:38 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:54:49 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:54:58 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\college_cmr_hacking\Bureaucracy_Navigator\backend\venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 05:55:12 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 05:57:21 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 06:01:23 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 06:02:09 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:02:09 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:02:17 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:02:17 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:05:44 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 06:05:51 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 06:06:46 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: HTTPSConnectionPool(host='services.india.gov.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002742F658E20>: Failed to resolve 'services.india.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2026-03-15 06:06:48 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://www.passportindia.gov.in/: HTTPSConnectionPool(host='www.passportindia.gov.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002742F6592A0>: Failed to resolve 'www.passportindia.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2026-03-15 06:06:50 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://meeseva.telangana.gov.in/: HTTPSConnectionPool(host='meeseva.telangana.gov.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002742F659720>: Failed to resolve 'meeseva.telangana.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2026-03-15 06:06:52 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: HTTPSConnectionPool(host='uidai.gov.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002742F658BE0>: Failed to resolve 'uidai.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2026-03-15 06:11:33 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:11:33 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:11:33 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:34 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:34 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:36 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:37 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:39 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:41 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:42 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:11:42 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:11:42 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:11:42 | ERROR    | app.services.auto_document_loader:get_targeted_summary:394 - Error generating targeted summary: 'AutoDocumentLoader' object has no attribute '_generate_targeted_summary'
+2026-03-15 06:11:42 | ERROR    | app.agent.simple_rag:_generate_answer_with_context:111 - Error generating answer: No module named 'langchain_core.memory'
+2026-03-15 06:14:52 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 06:14:59 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 06:15:21 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:15:21 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:15:21 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:22 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:23 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:23 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:23 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:24 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:24 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:25 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:27 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:28 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:30 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:15:30 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:15:30 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 06:25:14 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:15 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:16 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:16 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:16 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:16 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:17 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:18 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:20 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:22 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 06:25:24 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:46 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:47 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:47 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:48 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:48 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:48 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:49 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:50 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:52 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:54 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:37:56 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:42:10 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 07:42:17 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 07:42:19 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 07:44:50 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 07:44:57 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 07:45:49 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 07:45:49 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 07:45:49 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:50 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:51 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:51 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:52 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:52 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:52 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:53 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:56 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:58 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:59 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:45:59 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 07:45:59 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 07:46:57 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 07:47:04 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 07:47:18 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 07:47:18 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 07:47:18 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:20 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:20 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:21 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:21 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:22 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:22 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:23 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:25 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:28 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:29 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:322 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 07:47:29 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 07:47:29 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 07:52:42 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 07:52:50 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 07:55:04 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 07:55:12 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 08:00:39 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 08:00:46 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 08:02:35 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 08:02:42 | ERROR    | app.services.auto_document_loader:_scrape_website:138 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 08:09:47 | ERROR    | uvicorn.lifespan.on:send:134 - Traceback (most recent call last):
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\bheem\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-15 08:10:23 | ERROR    | app.services.auto_document_loader:_scrape_website:144 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 08:10:30 | ERROR    | app.services.auto_document_loader:_scrape_website:144 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 08:10:44 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 08:10:44 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 08:10:44 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:46 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:46 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:47 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:47 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:47 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:48 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:49 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:51 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:54 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:55 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 08:10:55 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 08:10:55 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 09:21:33 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:36 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:36 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:36 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:37 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:39 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:42 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:21:43 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:35 | ERROR    | app.services.auto_document_loader:_scrape_website:144 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 09:25:42 | ERROR    | app.services.auto_document_loader:_scrape_website:144 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 09:25:53 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 09:25:53 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 09:25:53 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:54 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:54 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:55 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:55 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:55 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:56 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:57 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:25:59 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:26:01 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:26:02 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:26:02 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 09:26:02 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 09:28:21 | ERROR    | app.services.auto_document_loader:_scrape_website:144 - Error scraping https://services.india.gov.in/: 'NoneType' object is not callable
+2026-03-15 09:28:28 | ERROR    | app.services.auto_document_loader:_scrape_website:144 - Error scraping https://uidai.gov.in/: AutoDocumentLoader._extract_aadhaar_info() takes 2 positional arguments but 3 were given
+2026-03-15 09:28:33 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 09:28:33 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 09:28:33 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:34 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:34 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:34 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:35 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:37 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:39 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:41 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:42 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 09:28:42 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 09:28:42 | ERROR    | chromadb.telemetry.product.posthog:_direct_capture:59 - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-15 10:16:25 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing aadhaar_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:27 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing birth_certificate_application_telangana_text_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:28 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing death_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:29 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing income_certificate_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:29 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_ownership_certificate_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:30 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing land_transfer_process_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:31 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing ration_card_application_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:33 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_agriculture_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:36 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_business_industry_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:40 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_land_property_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
+2026-03-15 10:16:41 | ERROR    | app.services.auto_document_loader:scan_local_pdfs:328 - Error processing telangana_vehicle_transport_certificates_guide.pdf: 'AutoDocumentLoader' object has no attribute '_categorize_pdf'
